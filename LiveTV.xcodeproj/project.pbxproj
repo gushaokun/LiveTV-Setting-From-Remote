@@ -7,19 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		86FB8FC11C7ED7C700EB7039 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FB8FC01C7ED7C700EB7039 /* AppDelegate.swift */; };
-		86FB8FC31C7ED7C700EB7039 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FB8FC21C7ED7C700EB7039 /* ViewController.swift */; };
-		86FB8FC61C7ED7C700EB7039 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86FB8FC41C7ED7C700EB7039 /* Main.storyboard */; };
+		86BBFAE51C8053F2004441F9 /* TVChannelTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BBFAE11C8053F2004441F9 /* TVChannelTableCell.swift */; };
+		86BBFAE61C8053F2004441F9 /* TVCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BBFAE21C8053F2004441F9 /* TVCollectionViewCell.swift */; };
+		86BBFAED1C80543C004441F9 /* TVRootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BBFAEC1C80543C004441F9 /* TVRootViewModel.swift */; };
+		86BBFAF01C80B03A004441F9 /* TVPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BBFAEE1C80B03A004441F9 /* TVPlayerController.swift */; };
+		86BBFAF11C80B03A004441F9 /* TVRootController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BBFAEF1C80B03A004441F9 /* TVRootController.swift */; };
+		86FB8FC11C7ED7C700EB7039 /* TVAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FB8FC01C7ED7C700EB7039 /* TVAppDelegate.swift */; };
 		86FB8FC81C7ED7C700EB7039 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86FB8FC71C7ED7C700EB7039 /* Assets.xcassets */; };
+		86FB8FD81C7ED82300EB7039 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86FB8FD71C7ED82300EB7039 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		86FB8FBD1C7ED7C700EB7039 /* LiveTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		86FB8FC01C7ED7C700EB7039 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		86FB8FC21C7ED7C700EB7039 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		86FB8FC51C7ED7C700EB7039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86BBFAE11C8053F2004441F9 /* TVChannelTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVChannelTableCell.swift; sourceTree = "<group>"; };
+		86BBFAE21C8053F2004441F9 /* TVCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVCollectionViewCell.swift; sourceTree = "<group>"; };
+		86BBFAEC1C80543C004441F9 /* TVRootViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVRootViewModel.swift; sourceTree = "<group>"; };
+		86BBFAEE1C80B03A004441F9 /* TVPlayerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVPlayerController.swift; sourceTree = "<group>"; };
+		86BBFAEF1C80B03A004441F9 /* TVRootController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVRootController.swift; sourceTree = "<group>"; };
+		86FB8FBD1C7ED7C700EB7039 /* CNLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CNLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86FB8FC01C7ED7C700EB7039 /* TVAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVAppDelegate.swift; sourceTree = "<group>"; };
 		86FB8FC71C7ED7C700EB7039 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86FB8FC91C7ED7C700EB7039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86FB8FCF1C7ED7FF00EB7039 /* LiveTV-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LiveTV-Bridging-Header.h"; sourceTree = "<group>"; };
+		86FB8FD71C7ED82300EB7039 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +42,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86BBFADD1C8053F2004441F9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				86BBFAEC1C80543C004441F9 /* TVRootViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		86BBFAE01C8053F2004441F9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				86BBFAE11C8053F2004441F9 /* TVChannelTableCell.swift */,
+				86BBFAE21C8053F2004441F9 /* TVCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		86BBFAE71C805403004441F9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				86BBFAEE1C80B03A004441F9 /* TVPlayerController.swift */,
+				86BBFAEF1C80B03A004441F9 /* TVRootController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		86FB8FB41C7ED7C700EB7039 = {
 			isa = PBXGroup;
 			children = (
@@ -44,7 +79,7 @@
 		86FB8FBE1C7ED7C700EB7039 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				86FB8FBD1C7ED7C700EB7039 /* LiveTV.app */,
+				86FB8FBD1C7ED7C700EB7039 /* CNLive.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,11 +87,14 @@
 		86FB8FBF1C7ED7C700EB7039 /* LiveTV */ = {
 			isa = PBXGroup;
 			children = (
-				86FB8FC01C7ED7C700EB7039 /* AppDelegate.swift */,
-				86FB8FC21C7ED7C700EB7039 /* ViewController.swift */,
-				86FB8FC41C7ED7C700EB7039 /* Main.storyboard */,
+				86FB8FC01C7ED7C700EB7039 /* TVAppDelegate.swift */,
+				86FB8FD71C7ED82300EB7039 /* Main.storyboard */,
+				86BBFAE71C805403004441F9 /* Controllers */,
+				86BBFADD1C8053F2004441F9 /* ViewModels */,
+				86BBFAE01C8053F2004441F9 /* Views */,
 				86FB8FC71C7ED7C700EB7039 /* Assets.xcassets */,
 				86FB8FC91C7ED7C700EB7039 /* Info.plist */,
+				86FB8FCF1C7ED7FF00EB7039 /* LiveTV-Bridging-Header.h */,
 			);
 			path = LiveTV;
 			sourceTree = "<group>";
@@ -78,7 +116,7 @@
 			);
 			name = LiveTV;
 			productName = LiveTV;
-			productReference = 86FB8FBD1C7ED7C700EB7039 /* LiveTV.app */;
+			productReference = 86FB8FBD1C7ED7C700EB7039 /* CNLive.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -93,6 +131,7 @@
 				TargetAttributes = {
 					86FB8FBC1C7ED7C700EB7039 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 3CG779D2W5;
 					};
 				};
 			};
@@ -120,7 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86FB8FC81C7ED7C700EB7039 /* Assets.xcassets in Resources */,
-				86FB8FC61C7ED7C700EB7039 /* Main.storyboard in Resources */,
+				86FB8FD81C7ED82300EB7039 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,23 +170,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86FB8FC31C7ED7C700EB7039 /* ViewController.swift in Sources */,
-				86FB8FC11C7ED7C700EB7039 /* AppDelegate.swift in Sources */,
+				86BBFAE51C8053F2004441F9 /* TVChannelTableCell.swift in Sources */,
+				86BBFAF11C80B03A004441F9 /* TVRootController.swift in Sources */,
+				86FB8FC11C7ED7C700EB7039 /* TVAppDelegate.swift in Sources */,
+				86BBFAED1C80543C004441F9 /* TVRootViewModel.swift in Sources */,
+				86BBFAF01C80B03A004441F9 /* TVPlayerController.swift in Sources */,
+				86BBFAE61C8053F2004441F9 /* TVCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		86FB8FC41C7ED7C700EB7039 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				86FB8FC51C7ED7C700EB7039 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		86FB8FCA1C7ED7C700EB7039 /* Debug */ = {
@@ -236,10 +268,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = LiveTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gavin.LiveTV;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tv.cnlive;
+				PRODUCT_NAME = CNLive;
+				PROVISIONING_PROFILE = "dd0684c6-9218-46b9-992d-3c74796c3903";
+				SWIFT_OBJC_BRIDGING_HEADER = "LiveTV/LiveTV-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
 		};
@@ -248,10 +286,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = LiveTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gavin.LiveTV;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tv.cnlive;
+				PRODUCT_NAME = CNLive;
+				PROVISIONING_PROFILE = "dd0684c6-9218-46b9-992d-3c74796c3903";
+				SWIFT_OBJC_BRIDGING_HEADER = "LiveTV/LiveTV-Bridging-Header.h";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};
@@ -274,6 +317,7 @@
 				86FB8FCE1C7ED7C700EB7039 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
